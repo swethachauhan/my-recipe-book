@@ -11,11 +11,12 @@ function App() {
   return (
     <BrowserRouter>
       <nav>
-      <h1>My Recipe Book</h1> 
+      
+       <h1>My Recipe Book</h1> 
         <div className='header'>
 
           <div><Link to="/">Home</Link> </div>
-          <div><Link to="/search">Search Recipes</Link></div>
+          <div><a href="/search">Search Recipes</a></div>
           <div><Link to="/favourite">Favourites</Link></div>
         </div>
         <Routes>

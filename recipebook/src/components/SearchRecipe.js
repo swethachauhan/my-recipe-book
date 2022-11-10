@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SearchRecipe({isLoading, searchKey, setSearchKey, handleSubmit,loadFavourite}) {
+function SearchRecipe({isLoading, searchKey, setSearchKey, handleSubmit}) {
   return (
     <form onSubmit = {handleSubmit}>
         <input

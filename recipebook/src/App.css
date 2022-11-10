@@ -179,6 +179,8 @@ background: #FFFFFF;
   margin: 20px auto;
   padding: 30px;
   border-radius: 20px;
+  text-align: center;
+
 }
 
 .animate-charcter
@@ -191,17 +193,14 @@ background: #FFFFFF;
     #ff1361 67%,
     #fff800 100%
   );
-  background-size: auto auto;
-  background-clip: border-box;
+  
   background-size: 200% auto;
   color: #fff;
-  background-clip: text;
   fill: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
-  display: inline-block;
-      font-size: 50px;
+  font-size: 50px;   
 }
 
 @keyframes textclip {

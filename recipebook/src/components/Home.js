@@ -1,13 +1,20 @@
 import React from 'react'
 
+
+const imgMyimageexample = require('./img2.jpg');
+const divStyle = {
+  width: '100%',
+  height: '500px',
+  backgroundImage: `url(${imgMyimageexample})`,
+  backgroundSize: 'cover' 
+};
+
 function Home() {
   return (
-    <div class="home-container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h3 class="animate-charcter"> Welcome to My Recipe Book </h3>
-      </div>
-    </div>
+    <div className="home-container" style={divStyle}>
+  
+        <h3 className="animate-charcter"> Welcome to My Recipe Book </h3>
+
   </div>
   )
 }

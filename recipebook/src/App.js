@@ -17,7 +17,7 @@ function App() {
 
           <div><Link to="/">Home</Link> </div>
           <div><a href="/search">Search Recipes</a></div>
-          <div><Link to="/favourite">Favourites</Link></div>
+          <div><a href="/favourite">Favourites</a></div>
         </div>
         <Routes>
           <Route path="/" element={<Home />}></Route>

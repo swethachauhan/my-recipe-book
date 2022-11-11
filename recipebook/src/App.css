@@ -1,177 +1,176 @@
 * {
-    font-family:"Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    box-sizing: border-box;
-    color: #1F2667;
-  }
-
-  
-  .container {
-    background-color: #f2f2f2;
-    max-width: 1000px;
-    min-height: 100vh;
-    margin: 20px auto;
-    padding: 30px;
-    border-radius: 20px;
-  }
-  
-  h1, h2, h3,h4, p {
-    text-align: center;
-  }
- 
-  
-  form {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }
-  
-  input {
-    border: 1px solid #f7f7f7;
-    padding: 10px;
-    font-size: 16px;
-  
-  }
-  input:focus {
-    outline: none;
-  }
-  
-  .form-input {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    width: 400px;
-  }
-  
-  .form-input-btn {
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    cursor: pointer;
-  
-  }
-  
-  .recipes {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .recipe-card {
-    width: 20%;
-    background-color: white;
-    margin: 10px;
-    border-radius: 5px;
-    padding-bottom: 10px;
-    -webkit-box-shadow: 0px 3px 19px -3px rgba(0,0,0,0.93);
-    box-shadow: 0px 3px 19px -3px rgba(0,0,0,0.93);
-  }
-  
-  .card-image {
-    width: 100%;
-  }
-  
-  .card-content {
-    text-align: center;
-  }
-  
-  .recipe-category {
-    color: #a1a1a1;
-  }
-  
-  a {
-    background-color: #f2f2f2;
-    color: inherit;
-    padding: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    margin: 10px;
-  }
-
-  button{
-    background-color: #e7e7e7;
-    border: none;
-    border-radius: 10px;
-    color: inherit;
-    padding: 10px auto;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 3px 19px -3px rgba(0,0,0,0); 
-    box-shadow: 0px 10px 13px -7px #000000, 0px 3px 19px -3px rgba(0,0,0,0);
-    
-  }
-  button:hover {
-    background-color:  #c7cbef;
-  }
-  
-  .fav-container {
-    display : flex;
-
-  }
-
-  .header{
-    display: flex;
-    justify-content: center
-  }
-
-  .side-bar, .recipe-content {
-      border: 1px solid black;
-  }
-  .ingredient-table {
-    max-width: 100%;
-    width: 100%;
-    border-spacing: 0px;
-    text-align: center;
-    
-  }
-  tr {
-		width: 100%;
-		background-color:  white;
-	}
-tr:nth-child(even) {
-    background-color: #f7f7f7;
- }
- tr:hover {
-  background-color:  #c7cbef;
+  font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial,
+    sans-serif;
+  box-sizing: border-box;
+  color: #1f2667;
 }
-tr>td {
+
+.container {
+  background-color: #f2f2f2;
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+input {
+  border: 1px solid #f7f7f7;
+  padding: 10px;
+  font-size: 16px;
+}
+input:focus {
+  outline: none;
+}
+
+.form-input {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 400px;
+}
+
+.form-input-btn {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+
+.recipes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.recipe-card {
+  width: 20%;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  -webkit-box-shadow: 0px 3px 19px -3px rgba(0, 0, 0, 0.93);
+  box-shadow: 0px 3px 19px -3px rgba(0, 0, 0, 0.93);
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.recipe-category {
+  color: #a1a1a1;
+}
+
+a {
+  background-color: #f2f2f2;
+  color: inherit;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.recipe-inst {
+  background-color: #eeeeee;
+  border-color: #eeeeee;
+  border-radius: 3px;
+  color: inherit;
+  outline: none;
+  padding: 10px auto;
+}
+.recipe-inst:hover {
+  background-color: #c7cbef;
+}
+
+.fav-btn,
+.fav-remove-btn {
+  border-radius: 10px;
+}
+
+.fav-container {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.side-bar,
+.recipe-content {
+  border: 1px solid black;
+}
+.ingredient-table {
+  max-width: 100%;
+  width: 100%;
+  border-spacing: 0px;
+  text-align: center;
+}
+tr {
+  width: 100%;
+  background-color: white;
+}
+tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+tr:hover {
+  background-color: #c7cbef;
+}
+tr > td {
   padding: 0.5rem;
 }
 
-.recipe-instructions{
+.recipe-instructions {
   display: grid;
-  grid-template-columns:  1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 10px;
 }
-.description{
+.description {
   width: 100%;
 }
-.view-image{
- 
+.view-image {
   object-fit: cover;
-  width : 80%;
+  width: 80%;
   align-content: center;
 }
 h1 {
-  background: #FFFFFF;
-text-shadow: 1px 1px 0 #3f4fe5;
-color: #1F2667;
-background: #FFFFFF;
+  background: #ffffff;
+  text-shadow: 1px 1px 0 #3f4fe5;
+  color: #1f2667;
+  background: #ffffff;
 }
 
 .title {
-	text-transform: capitalize;
-	font-size: 20px;
+  text-transform: capitalize;
+  font-size: 20px;
   text-align: center;
-	color: var(--text-color-light);
-	
+  color: var(--text-color-light);
 }
 
-
-.recipe-name{
-  background: #FFFFFF;
-  text-shadow: 1px 1px 0  #a1a1a1;
-  color: #1F2667;
-  background: #FFFFFF;
+.recipe-name {
+  background: #ffffff;
+  text-shadow: 1px 1px 0 #a1a1a1;
+  color: #1f2667;
+  background: #ffffff;
 }
-
 
 .home-container {
   background-color: #f2f2f2;
@@ -180,12 +179,10 @@ background: #FFFFFF;
   padding: 30px;
   border-radius: 20px;
   text-align: center;
-
 }
 
-.animate-charcter
-{
-   text-transform: uppercase;
+.animate-charcter {
+  text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
     #231557 0%,
@@ -193,18 +190,12 @@ background: #FFFFFF;
     #ff1361 67%,
     #fff800 100%
   );
-  
+
   background-size: 200% auto;
   color: #fff;
   fill: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
-  font-size: 50px;   
-}
-
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
+  font-size: 50px;
 }

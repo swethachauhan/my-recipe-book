@@ -3,8 +3,8 @@ import React from 'react'
 
 const imgMyimageexample = require('./img2.jpg');
 const divStyle = {
-  width: '100%',
-  height: '500px',
+  width: '80%',
+  height: '400px',
   backgroundImage: `url(${imgMyimageexample})`,
   backgroundSize: 'cover' 
 };

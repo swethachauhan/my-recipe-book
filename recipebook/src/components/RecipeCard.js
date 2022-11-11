@@ -22,7 +22,7 @@ const addToFavourite = () => {
       body: JSON.stringify(recipe),
     }).then(response => {
         setFav(true)
-        console.log(response)
+        
         listRecipes()
     });
 
@@ -36,7 +36,7 @@ const removeFromFavourite = () => {
       body: JSON.stringify(recipe),
     }).then(response => {
         setFav(true)
-        console.log(response)
+        listRecipes()
     });
 
 }
@@ -51,10 +51,10 @@ const removeFromFavourite = () => {
         <div className='card-content'>
             <div className='recipe-category'>{strCategory}</div>
             <div >{strMeal}</div>
-            <button className='recipe-instruction' onClick={()=>displayDescription(idMeal)}>Instructions</button>
+            <div className='recipe-inst' onClick={()=>displayDescription(idMeal)}>Instructions</div>
             {(favRecipes.filter(o => o.idMeal === idMeal).length !== 1) ?
-             (<button value={ fav } onClick={() => addToFavourite() } className = 'fav-btn'><FcLikePlaceholder/></button>)
-             : (<button value={ fav } onClick={() => removeFromFavourite() } className = 'fav-remove-btn'><FcLike /></button>)}
+             (<div value={ fav } onClick={() => addToFavourite() } className = 'fav-btn'><FcLikePlaceholder/></div>)
+             : (<div value={ fav } onClick={() => removeFromFavourite() } className = 'fav-remove-btn'><FcLike /></div>)}
         </div>
     </div>
   )

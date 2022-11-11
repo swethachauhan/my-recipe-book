@@ -9,7 +9,7 @@ const divStyle = {
   backgroundSize: 'cover' 
 };
 
-function Home() {
+const Home = () => {
   return (
     <div className="home-container" style={divStyle}>
   

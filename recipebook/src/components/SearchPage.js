@@ -5,7 +5,7 @@ import RecipeCard from './RecipeCard';
 import ViewRecipe from './ViewRecipe'
 const baseURL = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 
-function SearchPage() {
+const SearchPage = () => {
 
   const [isLoading, setIsLoading] = useState(false);
   const [searchKey, setSearchKey] = useState("");

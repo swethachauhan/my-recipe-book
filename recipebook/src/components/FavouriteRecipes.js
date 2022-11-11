@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import RecipeCard from "./RecipeCard";
 import ViewRecipe from "./ViewRecipe";
 
-function FavouriteRecipes() {
+const FavouriteRecipes = () => {
   const [favRecipes, setFavRecipes] = useState("");
   const [desc, setDesc] = useState("");
   const [viewRec, setViewRec] = useState(false);

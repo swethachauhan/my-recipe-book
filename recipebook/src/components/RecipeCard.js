@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FcLike, FcLikePlaceholder } from "react-icons/fc";
 
-function RecipeCard({recipe , favRecipes, displayDescription, listRecipes }) {
+const RecipeCard = ({recipe , favRecipes, displayDescription, listRecipes }) => {
 
     const [ fav, setFav ] = useState(false)
     const {

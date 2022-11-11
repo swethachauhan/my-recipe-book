@@ -1,6 +1,6 @@
 import React from "react";
 
-function ViewRecipe({ viewRec }) {
+const ViewRecipe = ({ viewRec }) => {
   return (
     <div className="recipe-instructions">
       <div>

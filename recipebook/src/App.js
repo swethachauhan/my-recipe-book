@@ -6,7 +6,7 @@ import { BrowserRouter, Link , Routes, Route} from 'react-router-dom'
 import FavouriteRecipes from './components/FavouriteRecipes';
 
 
-function App() {
+const App = () => {
 
   return (
     <BrowserRouter>

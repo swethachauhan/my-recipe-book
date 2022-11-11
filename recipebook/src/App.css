@@ -89,12 +89,13 @@ a {
 }
 
 .recipe-inst {
-  background-color: #eeeeee;
-  border-color: #eeeeee;
-  border-radius: 3px;
+  background-color: #f2f2f2;
   color: inherit;
-  outline: none;
-  padding: 10px auto;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 10px;
 }
 .recipe-inst:hover {
   background-color: #c7cbef;
